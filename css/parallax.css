@@ -1,0 +1,35 @@
+#slide1
+{
+    height: 100%;
+    background-image:url('./kendo.jpg');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+#slide3
+{
+    background-image:url('https://lambratekendoprovaale.files.wordpress.com/2016/08/parrallax_2.jpg');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+#slide5
+{
+    background-image:url('https://lambratekendoprovaale.files.wordpress.com/2016/08/parallax_4.jpg');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#slide2,
+#slide4,
+#slide6
+{
+    background-color:#ffffff;
+    box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
+    z-index: 10;
+}
