@@ -22,9 +22,9 @@
             preventContextMenu: false,
             parallax: true,
             parallaxOptions: {
-                effect: 15
+                effect: 25
             },
-            pauseVideoOnViewLoss: false
+            pauseVideoOnViewLoss: true
         };
 
     // The actual plugin constructor
@@ -45,7 +45,7 @@
         this.options.$videoWrap.css({
             'position': 'relative',
             'overflow': 'hidden',
-            'z-index': '10'
+            'z-index': '5'
         });
         // Set object default styles
         this.options.$video.css({
